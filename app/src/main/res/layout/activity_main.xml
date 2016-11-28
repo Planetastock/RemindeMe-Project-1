@@ -45,7 +45,8 @@
             android:layout_height="wrap_content"
             android:src="@mipmap/ic_plus"
             android:layout_gravity="end|bottom"
-            android:layout_margin="@dimen/fab_margin"/>
+            android:layout_margin="@dimen/fab_margin"
+            appNs:rippleColor="@color/colorPrimaryDark"/>
 
     </android.support.design.widget.CoordinatorLayout>
 
