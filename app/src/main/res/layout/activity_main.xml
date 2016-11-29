@@ -40,13 +40,14 @@
             appNs:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
         <android.support.design.widget.FloatingActionButton
+            xmlns:appNs="https://schema.android.caom/apk/res-auto"
             android:id="@+id/fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@mipmap/ic_plus"
             android:layout_gravity="end|bottom"
             android:layout_margin="@dimen/fab_margin"
-            appNs:rippleColor="@color/colorPrimaryDark"/>
+            appNs:backgroundTint="@color/colorPrimaryDark"/>
 
     </android.support.design.widget.CoordinatorLayout>
 
